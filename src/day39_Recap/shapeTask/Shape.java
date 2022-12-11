@@ -35,22 +35,11 @@ public class Shape {
         return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }

@@ -22,19 +22,19 @@ public class Circle extends Shape {
         setRadius(radius);
     }
 
-    @Override
+
     public double area() {
         return radius * radius * pi;
     }
 
 
-    @Override
+
     public double perimeter() {
         return 2 * radius* pi;
     }
 
 
-    @Override
+
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +

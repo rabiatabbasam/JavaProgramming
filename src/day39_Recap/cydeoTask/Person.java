@@ -37,28 +37,23 @@ public class Person {
     }
 
 
+    public void eat(){
+        System.out.println(name+ " is eating");
+}
 
+    public void drink(){
+        System.out.println(name+ " is drinking");
+    }
 
+    public void sleep(){
+        System.out.println(name+ " is sleeping");
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }

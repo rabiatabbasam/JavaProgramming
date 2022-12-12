@@ -30,6 +30,27 @@ public class Person {
         this.gender = gender;
     }
 
+    public Person(String name, int age, char gender) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,20 +11,8 @@ public class Tester extends Employee {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public void work() {
+        System.out.println(getJobTitle()+" "+getName()+" is testing the application");
+    }
 }

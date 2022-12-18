@@ -11,7 +11,7 @@ public final class Iphone extends Phone {
 
 
 
-    public void faceTime(long phoneNumber){
+    public  void faceTime(long phoneNumber){
         System.out.println(brand +" "+ model +" is having a Face Time with phone number: "+phoneNumber);
     }
 

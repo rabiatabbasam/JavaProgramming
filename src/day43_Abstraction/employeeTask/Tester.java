@@ -16,7 +16,7 @@ public final class Tester extends Employee {
     }
 
 
-    public  void budReport(){
+    public  void bugReport(){
         System.out.println(getName()+" is creating bug reports");
     }
 }

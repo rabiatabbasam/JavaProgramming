@@ -8,7 +8,7 @@ public abstract class Animal {
     private int age;
     private String size;
     private final String color;
-
+//
     public final static boolean canBreath;
 
     static {
@@ -84,8 +84,9 @@ public  final void drink(){
     public abstract void eat();
 
 
+    @Override
     public String toString() {
-        return getClass().getSimpleName()+"{" +
+        return getClass().getSimpleName()+"{"+
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +

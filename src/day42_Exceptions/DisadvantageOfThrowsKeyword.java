@@ -24,5 +24,8 @@ public class DisadvantageOfThrowsKeyword {
 
         Thread.sleep((long) (seconds * 1000));
 
+
+
+
     }
 }

@@ -64,7 +64,8 @@ public class ReferenceTypeCasting {
         Shape s1 = new Circle(10);
         s1.area();
         s1.perimeter();
-        ((Cube)s1).volume();
+
+        //((Cube)s1).volume();
 
 
 

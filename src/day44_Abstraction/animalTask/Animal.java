@@ -97,6 +97,8 @@ public  final void drink(){
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    public abstract void bark();
 }
 
 

@@ -70,6 +70,16 @@ public class MapMethods {
         System.out.println(map1);
         System.out.println(map2);
 
+        //create a map that contains group ID and names group members
+
+
+
+
+
+
+
+
+
     }
 
 }

@@ -1,5 +1,6 @@
 package day53_FunctionalInterface;
 
+import java.util.Arrays;
 import java.util.function.BiPredicate;
 
 public class BuildInFunctionalInterface2 {
@@ -26,6 +27,32 @@ public class BuildInFunctionalInterface2 {
       boolean r1 =contains.test(arr,11);
 
         System.out.println(r1);
+
+        System.out.println("-------------------------");
+
+        //Create a function that can check if two strings are anagram
+
+        BiPredicate<String, String> anagram = (a, b) -> {
+       String[] arr1 = a.split("");
+       String[] arr2 = b.split("");
+            Arrays.sort(arr1);
+            Arrays.sort(arr2);
+            return Arrays.equals(arr1, arr2);
+        };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

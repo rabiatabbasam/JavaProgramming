@@ -116,9 +116,22 @@ public class BuildInFunctionalInterface2 {
         map ==> {Josh= 100, Daniel = 110}
          */
 
+        BiFunction<List<String>, List<Integer>,Map<String, Integer>> merge2 = (j, k) -> {
+            Map<String, Integer> map = new HashMap<>();
+            for (int i = 0; i < j.size(); i++) {
+                map.put(j.get(i), k.get(i));
 
+            }
+            return map;
+        };
 
+       List<String> names= new ArrayList<>(Arrays.asList("Layan","Kseniia","aygun"));
 
+       List<Integer> scores = new ArrayList<>(Arrays.asList(90,95,98));
+
+       Map<String,Integer> students= merge2.apply(names,scores);
+
+        System.out.println(students);
 
 
 

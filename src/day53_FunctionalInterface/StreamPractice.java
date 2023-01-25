@@ -47,7 +47,10 @@ public class StreamPractice {
 
         System.out.println(days);
 
+        List<Integer> list5 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        List<Integer> evens = list5.stream().filter(p-> p%2==0).collect(Collectors.toList());
 
+        System.out.println(evens);
 
 
 
